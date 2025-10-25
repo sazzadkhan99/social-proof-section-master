@@ -35,13 +35,14 @@ body{
   align-items: center;
   flex-direction: column;
   font-family: var(--primaryFont);
-  padding: 10rem;
+  padding: 2rem;
 }
 main{
+  max-width: 68rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;    
+  align-items: center;
 }
 .hero-area{
   display: flex;
