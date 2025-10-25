@@ -35,7 +35,7 @@ body{
   align-items: center;
   flex-direction: column;
   font-family: var(--primaryFont);
-  padding: 7rem;
+  padding: 10rem;
 }
 main{
   display: flex;
@@ -63,7 +63,7 @@ main{
  }
 .rating-area{
   flex-basis:50%;
-  margin-top: 6.875rem;
+  margin-top: 6rem;
   padding-left: 5rem;
 } 
 .icon{
@@ -96,7 +96,7 @@ main{
 } 
 
 .testimonial-area{
-  height: 35vh;
+  height: 40vh;
   margin-top: 1rem;
   display: flex;
 }
@@ -173,7 +173,7 @@ main{
 }
 .text-area h1{
   font-size: 2.75rem; 
-  padding-top: 25rem;
+  padding-top: 20rem;
   line-height: 2rem;
  }
 
@@ -221,6 +221,8 @@ main{
 .anne{
   margin: auto;
 }
+
+
 .author-info p{
   margin-bottom: .5rem;
   color: var(--darkGrayishMagenta);
@@ -233,4 +235,3 @@ main{
   color: var(--softPink);
 }
 }
-
