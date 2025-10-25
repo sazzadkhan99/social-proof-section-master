@@ -50,7 +50,7 @@ main{
 }
 .text-area{
   flex-basis:50%;
-  padding-top: 5rem;
+  margin-top: 5rem;
   padding-right: 11rem;
   
 }
@@ -173,7 +173,8 @@ main{
 }
 .text-area h1{
   font-size: 2.75rem; 
-  padding-top: 25rem;
+  padding-top: 28rem;
+  line-height: 2rem;
  }
 
 .text-area p{
@@ -220,7 +221,6 @@ main{
 .anne{
   margin: auto;
 }
-
 .author-info p{
   margin-bottom: .5rem;
   color: var(--darkGrayishMagenta);
@@ -233,5 +233,3 @@ main{
   color: var(--softPink);
 }
 }
-
-
