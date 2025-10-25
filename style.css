@@ -174,7 +174,7 @@ main{
 }
 .text-area h1{
   font-size: 2.75rem; 
-  padding-top: 20rem;
+  padding-top: 25rem;
   line-height: 2rem;
  }
 
@@ -214,15 +214,11 @@ main{
   border-radius: .3rem;
 } 
 .irene{
-  margin: .75rem 0 auto;
-} 
-.irene{
   margin: 1rem auto;
 }
 .anne{
   margin: auto;
 }
-
 
 .author-info p{
   margin-bottom: .5rem;
@@ -236,3 +232,4 @@ main{
   color: var(--softPink);
 }
 }
+
