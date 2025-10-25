@@ -35,7 +35,7 @@ body{
   align-items: center;
   flex-direction: column;
   font-family: var(--primaryFont);
-  padding: 120px;
+  padding: 7rem;
 }
 main{
   display: flex;
@@ -50,20 +50,20 @@ main{
 }
 .text-area{
   flex-basis:50%;
-  margin-top: 100px;
+  margin-top: 5rem;
   padding-right: 11rem;
   
 }
 .text-area h1{
   color: var(--veryDarkMagenta);
-  font-size: 2.75rem; 
+  font-size: 3.25rem; 
  }
  .text-area p{
   color: var(--darkGrayishMagenta);
  }
 .rating-area{
   flex-basis:50%;
-  margin-top: 110px;
+  margin-top: 6.875rem;
   padding-left: 5rem;
 } 
 .icon{
@@ -72,8 +72,8 @@ main{
   align-items: center;
   justify-content: center;
   max-width: 22rem;
-  font-size:18px;
-  padding: 0.75rem;
+  font-size: 1.125rem;
+  padding: 0.95rem;
   border-radius: .35rem;
   color: var(--starColor);
 }
@@ -90,13 +90,13 @@ main{
 }
 .icon span{
   color: var(--veryDarkMagenta);
-  font-size: 15px;
+  font-size: .937rem;
   font-weight: 600;
   margin-left: 1rem;  
 } 
 
 .testimonial-area{
-  height: 42vh;
+  height: 35vh;
   margin-top: 1rem;
   display: flex;
 }
@@ -139,7 +139,7 @@ main{
   line-height: 1.2rem;
 }
 .author-info p{
-  margin-top: .5rem;
+  margin-bottom: auto;
   color: var(--darkGrayishMagenta);
 }
 .author-info a{
@@ -149,7 +149,7 @@ main{
 .author-info a:hover{
   color: var(--softPink);
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:53.125rem){
   body{
     background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
     background-position: right 40vw bottom 75vh,  left 50vw top 74vh ;
@@ -189,7 +189,6 @@ main{
   max-width:100%;
   align-items: center;
 }
-
 .star-1{
   margin: 0;
 }
