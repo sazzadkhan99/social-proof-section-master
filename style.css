@@ -52,7 +52,7 @@ main{
 .text-area{
   flex-basis:50%;
   margin-top: 5rem;
-  padding-right: 11rem;
+  padding-right: 8%;
   
 }
 .text-area h1{
@@ -97,24 +97,23 @@ main{
 } 
 
 .testimonial-area{
-  height: 40vh;
+  height: auto;
   margin-top: 1rem;
   display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 .testimonial{
   background-color: var(--veryDarkMagenta);
   color: var(--white);
   padding: 2rem 2rem 0 2rem;
-  border-radius: .4rem;
+  border-radius: .5rem;
 } 
-.colton{
-  margin-bottom: auto ;
-}
 .irene{
-  margin: auto 2rem;
+  margin-top: 2%;
 }
 .anne{
-  margin-top: auto;
+  margin-top: 4%;
 }
 .image-area{
   display: flex;
@@ -156,26 +155,32 @@ main{
     background-position: right 40vw bottom 75vh,  left 50vw top 74vh ;
     background-repeat: no-repeat;
     padding: 0;
+    margin-top: 11rem;  
   }
   main{
     height: auto;
      margin: 0 auto;
-     padding: 2rem 2rem 0 2rem;    
+     padding: 0rem 2rem 0rem 2rem;      
   }  
 .hero-area{
   display: flex;
   flex-direction: column;
   justify-content: center;  
-  padding-top: 0;
+  align-items: center;
+  min-height: auto;
+  padding-top: 2rem;
+  
 }
+
 .text-area{
   flex-basis:50%;
-  padding-right: 0rem;
+  padding-right: 0; 
 }
 .text-area h1{
-  font-size: 2.75rem; 
-  padding-top: 25rem;
+  font-size: 2.5rem; 
+  margin-top: 0rem;
   line-height: 2rem;
+  text-align: center; 
  }
 
 .text-area p{
@@ -191,7 +196,7 @@ main{
 .icon{
   flex-direction: column;
   max-width:100%;
-  padding: 0.75rem;
+  padding: 0.50rem;
   align-items: center;
 }
 .star-1{
@@ -205,21 +210,21 @@ main{
 }
 
 .testimonial-area{
-  height: auto;
   flex-direction: column ;
+  gap: .75rem;
 }
 .testimonial{
-  margin-top: 1rem;
+  margin-top: .5rem;
   padding: 1.5rem 1.5rem 0 1.5rem;
-  border-radius: .3rem;
-} 
+  border-radius: .4rem;
+ } 
 .irene{
-  margin: 1rem auto;
+  margin: 0 auto;
+  
 }
 .anne{
-  margin: auto;
+  margin: 0 auto;
 }
-
 .author-info p{
   margin-bottom: .5rem;
   color: var(--darkGrayishMagenta);
@@ -232,6 +237,3 @@ main{
   color: var(--softPink);
 }
 }
-
-
-
