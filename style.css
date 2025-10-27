@@ -155,7 +155,7 @@ main{
     background-position: right 40vw bottom 75vh,  left 50vw top 74vh ;
     background-repeat: no-repeat;
     padding: 0;
-    margin-top: 11rem;  
+    margin-top: 10rem;  
   }
   main{
     height: auto;
@@ -226,7 +226,7 @@ main{
   margin: 0 auto;
 }
 .author-info p{
-  margin-bottom: .5rem;
+  margin: .5rem auto;
   color: var(--darkGrayishMagenta);
 }
 .author-info a{
